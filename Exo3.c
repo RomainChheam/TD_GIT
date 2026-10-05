@@ -46,6 +46,7 @@ int main()
         }
         char lettredonnee;
         int ok = 0;
+        int ok2 = 0;
         printf("Le mot : %s", affichage);
         printf("\nDonnez une lettre : ");
         scanf("%c", &lettredonnee);
@@ -58,7 +59,7 @@ int main()
                 ok = 1;
             }
         }
-        if (ok = 1)
+        if (ok == 1)
         {
             for (int i = 0; i < strlen(mot); i++)
             {
@@ -70,14 +71,15 @@ int main()
             }
             for (int m = 0; m < strlen(mot); m++)
             {
-                if (statut[m] == 0)
-                {
+                if (statut[m] == 0) {
+                    ok2 = 1;
                     break;
                 }
-                else {
-                    printf("Bravo vous avez gagné, le mot est %s ! ", affichage);
+            }
+            if (ok2 == 0)
+            {
+                printf("Bravo vous avez gagné, le mot est %s ! ", affichage);
                 return 0;
-                }
             }
         }
         else
