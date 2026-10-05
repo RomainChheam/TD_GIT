@@ -26,19 +26,19 @@ int main()
             printf("\n |\n |\n |\n |\n |\n |\n-------\n");
             break;
         case 2:
-            printf(" -------\n | |\n |\n |\n |\n |\n-------\n");
+            printf(" -------\n |  |\n |\n |\n |\n |\n-------\n");
             break;
         case 3:
-            printf(" -------\n | |\n | O\n |\n |\n |\n-------\n");
+            printf(" -------\n |  |\n |  O\n |\n |\n |\n-------\n");
             break;
         case 4:
-            printf(" -------\n | |\n | O\n | |\n |\n |\n-------\n");
+            printf(" -------\n |  |\n |  O\n |  |\n |\n |\n-------\n");
             break;
         case 5:
-            printf(" -------\n | |\n | O\n | /|\\\n |\n |\n-------\n");
+            printf(" -------\n |  |\n |  O\n | /|\\\n |\n |\n-------\n");
             break;
         case 6:
-            printf(" -------\n | |\n | O\n | /|\\\n | / \\\n |\n-------\n");
+            printf(" -------\n |  |\n |  O\n | /|\\\n | / \\\n |\n-------\n");
             printf("Vous avez perdu gros nullos.");
             return 0;
         default:
