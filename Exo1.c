@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int main(){
+    // C'est giga nul
     int demande;
     int s;
     int m;
